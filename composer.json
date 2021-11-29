@@ -1,0 +1,16 @@
+{
+    "autoload": {
+        "psr-4": {
+            "AirTransport\\": "AirTransport/",
+            "RoadTransport\\": "RoadTransport/",
+            "Logistic\\": "Logistic/"
+        }
+    },
+    "authors": [
+        {
+            "name": "artemmm312",
+            "email": "artemmm312@gmail.com"
+        }
+    ],
+    "require": {}
+}
