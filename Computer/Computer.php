@@ -27,7 +27,7 @@ class Computer implements Prototype
 		$this->video_card = $video_card;
 	}
 
-	public function addAccessories(string $accessory)
+	public function addAccessories(string $accessory): void
 	{
 		$this->accessories = $accessory;
 	}
@@ -39,7 +39,7 @@ class Computer implements Prototype
 		$this->accessories = [];
 	}
 
-	public function view()
+	public function view(): void
 	{
 		echo $this->model . "<br>";
 		echo $this->cpu . "<br>";

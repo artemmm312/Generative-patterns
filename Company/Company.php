@@ -13,7 +13,7 @@ class Company
 		$this->name = $name;
 	}
 
-	public function addComputer(Computer $computer)
+	public function addComputer(Computer $computer): void
 	{
 		$this->computers = $computer;
 	}
