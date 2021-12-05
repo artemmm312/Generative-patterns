@@ -6,7 +6,7 @@ use Computer\Computer;
 
 class Company
 {
-	private $name;
+	private string $name;
 
 	public function __construct(string $name)
 	{

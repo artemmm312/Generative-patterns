@@ -8,13 +8,13 @@ use Company\Company;
 //Конкретный прототип
 class Computer implements Prototype
 {
-	private $company;
-	private $model;
-	private $cpu;
-	private $ram;
-	private $rom;
-	private $video_card;
-	private $accessories = [];
+	private Company $company;
+	private string $model;
+	private string $cpu;
+	private string $ram;
+	private string $rom;
+	private string $video_card;
+	private array $accessories = [];
 
 	public function __construct(Company $company, string $model, string $cpu, string $ram, string $rom, string $video_card)
 	{
